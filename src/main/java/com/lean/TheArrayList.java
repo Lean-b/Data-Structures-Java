@@ -3,10 +3,12 @@ package com.lean;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TheList {
+public class TheArrayList {
     public static void main(String[] args) {
-        List<String> colors = new ArrayList<String>();
 
+        //La interfaz List define la funcionalidad básica común a todas las listas en Java
+        //List<String> colors = new ArrayList<>();
+        ArrayList<String> colors = new ArrayList<>();
         colors.add("purple");
         colors.add("black");
         colors.add("blue");
