@@ -58,6 +58,7 @@ public class TheMaps {
         // Imprime cada par clave-valor del mapa "skills" en formato "clave :: valor".
         skills.entrySet().forEach(x -> System.out.println(x.getKey() + " :: " + x.getValue()));
 
+        System.out.println();
 
         /*
          *   TreeMap:  También es una implementación de la interfaz Map, pero a diferencia de HashMap,
@@ -66,9 +67,14 @@ public class TheMaps {
          *   La ordenación se basa en el orden natural de las claves o en un comparador personalizado.
          * */
         Map<Integer, String> blockchains = new TreeMap<>();
-        skills.put(1, "Polkadot");
-        skills.put(2, "Ethereum");
-        skills.put(3, "Bitcoin");
+        blockchains.put(1, "Polkadot");
+        blockchains.put(2, "Ethereum");
+        blockchains.put(3, "Bitcoin");
+
+        System.out.println(blockchains);
+
+
+
 
 
     }
