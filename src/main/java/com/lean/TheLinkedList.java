@@ -3,7 +3,7 @@ package com.lean;
 import java.util.LinkedList;
 
 /*
-* Linked-List: Es una lista enlazada que que representa a una lista doblemente enlazada de ida y vuelta.
+* Linked-List: Es una lista enlazada que representa a una lista doblemente enlazada de ida y vuelta.
 * Mantiene el orden.
 * Manipulacion rapida.
 * Son estructuras de datos lineales, donde sus elementos no están almacenados en bloques continuos de memoria.
