@@ -27,7 +27,7 @@ public class TheArrayList {
 
         System.out.println();
 
-        // Muestra la cantidad de elementos que tiene el ArrayList
+        // Muestra el tamaño del ArrayList
         System.out.println(colors.size());
 
         // Verifica si el ArrayList contiene un elemento específico
