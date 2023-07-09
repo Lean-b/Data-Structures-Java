@@ -35,8 +35,7 @@ public class TheList {
 
         System.out.println();
 
-        for (String color:
-             colors) {
+        for (String color : colors) {
             System.out.println(color);
         }
 

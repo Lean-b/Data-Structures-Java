@@ -1,7 +1,5 @@
 package com.lean;
 
-import java.util.Arrays;
-
 public class TheArrays2D {
     public static void main(String[] args) {
         int[][] number = new int[3][3];

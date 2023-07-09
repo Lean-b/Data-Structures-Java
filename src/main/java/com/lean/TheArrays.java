@@ -2,14 +2,22 @@ package com.lean;
 
 import java.util.Arrays;
 
+/*
+* Array: Es una estructura de datos que almacena distintas variables de forma ordenada.
+* Nos permite almacenar una gran cantidad de datos de un mismo tipo.
+* No cambia en tiempo de ejecucion.
+* El array empieza desde el elemento 0.
+* Si queremos almacenar 10 elemento debemos contar desde el 0 por lo tanto son 9.
+* array :: [0][1][2][3][4][5][6][7][8][9] = 10 elementos
+* */
+
 public class TheArrays {
-    public static void main (String[] args){
+    public static void main(String[] args) {
 
         System.out.println("String");
 
         System.out.println();
 
-        //String[] colors ={"red","blue"};
         String[] colors = new String[5];
         colors[0] = "purple";
         colors[1] = "blue";
@@ -41,7 +49,7 @@ public class TheArrays {
 
         System.out.println();
 
-        for (int i = colors.length-1; i >= 0; i--) {
+        for (int i = colors.length - 1; i >= 0; i--) {
             System.out.println(colors[i]);
         }
 
@@ -68,7 +76,7 @@ public class TheArrays {
 
         System.out.println();
 
-        for (int i = 0; i < Arrays.stream(colors).count() ; i++) {
+        for (int i = 0; i < Arrays.stream(colors).count(); i++) {
             System.out.println(colors[i]);
         }
 
@@ -93,7 +101,7 @@ public class TheArrays {
         System.out.println();
 
 
-        int[] numbers = {1,2,3,4,5};
+        int[] numbers = {1, 2, 3, 4, 5};
 
         Arrays.stream(numbers).forEach(System.out::println);
 

@@ -2,15 +2,14 @@ package com.lean;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.SortedMap;
 
 public class TheMaps {
     public static void main(String[] args) {
-        Map<Integer,String> skills = new HashMap<>();
-        skills.put(1,"Java");
-        skills.put(2,"Rust");
-        skills.put(3,"Solidity");
-        skills.put(4,"Go");
+        Map<Integer, String> skills = new HashMap<>();
+        skills.put(1, "Java");
+        skills.put(2, "Rust");
+        skills.put(3, "Solidity");
+        skills.put(4, "Go");
 
         System.out.println(skills);
         System.out.println(skills.size());
@@ -30,7 +29,7 @@ public class TheMaps {
 
         System.out.println();
 
-        skills.entrySet().forEach(x-> System.out.println(x.getKey() + " :: " + x.getValue()));
+        skills.entrySet().forEach(x -> System.out.println(x.getKey() + " :: " + x.getValue()));
 
     }
 }

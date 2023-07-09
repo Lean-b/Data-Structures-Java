@@ -2,7 +2,7 @@ package com.lean;
 
 import java.util.LinkedList;
 
-public class TheLInkedList {
+public class TheLinkedList {
     public static void main(String[] args) {
 
         LinkedList<String> name = new LinkedList<>();
